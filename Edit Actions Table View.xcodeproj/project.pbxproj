@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF6516CC1E3112D2004B9955 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6516CB1E3112D2004B9955 /* AppDelegate.swift */; };
+		EF6516CE1E3112D2004B9955 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6516CD1E3112D2004B9955 /* ViewController.swift */; };
+		EF6516D11E3112D2004B9955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6516CF1E3112D2004B9955 /* Main.storyboard */; };
+		EF6516D31E3112D2004B9955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6516D21E3112D2004B9955 /* Assets.xcassets */; };
+		EF6516D61E3112D2004B9955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6516D41E3112D2004B9955 /* LaunchScreen.storyboard */; };
+		EF6516E11E3112D2004B9955 /* Test_Table_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6516E01E3112D2004B9955 /* Test_Table_ViewTests.swift */; };
+		EF6516EC1E3112D2004B9955 /* Test_Table_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6516EB1E3112D2004B9955 /* Test_Table_ViewUITests.swift */; };
+		EF6516FA1E31161F004B9955 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6516F91E31161F004B9955 /* Cell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF6516DD1E3112D2004B9955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF6516C01E3112D1004B9955 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6516C71E3112D1004B9955;
+			remoteInfo = "Test Table View";
+		};
+		EF6516E81E3112D2004B9955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF6516C01E3112D1004B9955 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6516C71E3112D1004B9955;
+			remoteInfo = "Test Table View";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF6516C81E3112D1004B9955 /* Edit Actions Table View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Edit Actions Table View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6516CB1E3112D2004B9955 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF6516CD1E3112D2004B9955 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF6516D01E3112D2004B9955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF6516D21E3112D2004B9955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF6516D51E3112D2004B9955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF6516D71E3112D2004B9955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6516DC1E3112D2004B9955 /* Edit Actions Table ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Edit Actions Table ViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6516E01E3112D2004B9955 /* Test_Table_ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Table_ViewTests.swift; sourceTree = "<group>"; };
+		EF6516E21E3112D2004B9955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6516E71E3112D2004B9955 /* Edit Actions Table ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Edit Actions Table ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6516EB1E3112D2004B9955 /* Test_Table_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Table_ViewUITests.swift; sourceTree = "<group>"; };
+		EF6516ED1E3112D2004B9955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6516F91E31161F004B9955 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF6516C51E3112D1004B9955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6516D91E3112D2004B9955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6516E41E3112D2004B9955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF6516BF1E3112D1004B9955 = {
+			isa = PBXGroup;
+			children = (
+				EF6516CA1E3112D2004B9955 /* Test Table View */,
+				EF6516DF1E3112D2004B9955 /* Test Table ViewTests */,
+				EF6516EA1E3112D2004B9955 /* Test Table ViewUITests */,
+				EF6516C91E3112D1004B9955 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF6516C91E3112D1004B9955 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF6516C81E3112D1004B9955 /* Edit Actions Table View.app */,
+				EF6516DC1E3112D2004B9955 /* Edit Actions Table ViewTests.xctest */,
+				EF6516E71E3112D2004B9955 /* Edit Actions Table ViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF6516CA1E3112D2004B9955 /* Test Table View */ = {
+			isa = PBXGroup;
+			children = (
+				EF6516CB1E3112D2004B9955 /* AppDelegate.swift */,
+				EF6516CD1E3112D2004B9955 /* ViewController.swift */,
+				EF6516CF1E3112D2004B9955 /* Main.storyboard */,
+				EF6516D21E3112D2004B9955 /* Assets.xcassets */,
+				EF6516D41E3112D2004B9955 /* LaunchScreen.storyboard */,
+				EF6516D71E3112D2004B9955 /* Info.plist */,
+				EF6516F91E31161F004B9955 /* Cell.swift */,
+			);
+			path = "Test Table View";
+			sourceTree = "<group>";
+		};
+		EF6516DF1E3112D2004B9955 /* Test Table ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF6516E01E3112D2004B9955 /* Test_Table_ViewTests.swift */,
+				EF6516E21E3112D2004B9955 /* Info.plist */,
+			);
+			path = "Test Table ViewTests";
+			sourceTree = "<group>";
+		};
+		EF6516EA1E3112D2004B9955 /* Test Table ViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF6516EB1E3112D2004B9955 /* Test_Table_ViewUITests.swift */,
+				EF6516ED1E3112D2004B9955 /* Info.plist */,
+			);
+			path = "Test Table ViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF6516C71E3112D1004B9955 /* Edit Actions Table View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6516F01E3112D2004B9955 /* Build configuration list for PBXNativeTarget "Edit Actions Table View" */;
+			buildPhases = (
+				EF6516C41E3112D1004B9955 /* Sources */,
+				EF6516C51E3112D1004B9955 /* Frameworks */,
+				EF6516C61E3112D1004B9955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Edit Actions Table View";
+			productName = "Test Table View";
+			productReference = EF6516C81E3112D1004B9955 /* Edit Actions Table View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF6516DB1E3112D2004B9955 /* Edit Actions Table ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6516F31E3112D2004B9955 /* Build configuration list for PBXNativeTarget "Edit Actions Table ViewTests" */;
+			buildPhases = (
+				EF6516D81E3112D2004B9955 /* Sources */,
+				EF6516D91E3112D2004B9955 /* Frameworks */,
+				EF6516DA1E3112D2004B9955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF6516DE1E3112D2004B9955 /* PBXTargetDependency */,
+			);
+			name = "Edit Actions Table ViewTests";
+			productName = "Test Table ViewTests";
+			productReference = EF6516DC1E3112D2004B9955 /* Edit Actions Table ViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF6516E61E3112D2004B9955 /* Edit Actions Table ViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6516F61E3112D2004B9955 /* Build configuration list for PBXNativeTarget "Edit Actions Table ViewUITests" */;
+			buildPhases = (
+				EF6516E31E3112D2004B9955 /* Sources */,
+				EF6516E41E3112D2004B9955 /* Frameworks */,
+				EF6516E51E3112D2004B9955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF6516E91E3112D2004B9955 /* PBXTargetDependency */,
+			);
+			name = "Edit Actions Table ViewUITests";
+			productName = "Test Table ViewUITests";
+			productReference = EF6516E71E3112D2004B9955 /* Edit Actions Table ViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF6516C01E3112D1004B9955 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Thyago Stall Araujo";
+				TargetAttributes = {
+					EF6516C71E3112D1004B9955 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L2DV785Z9X;
+						ProvisioningStyle = Automatic;
+					};
+					EF6516DB1E3112D2004B9955 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = D25DV5T8JD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF6516C71E3112D1004B9955;
+					};
+					EF6516E61E3112D2004B9955 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = D25DV5T8JD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF6516C71E3112D1004B9955;
+					};
+				};
+			};
+			buildConfigurationList = EF6516C31E3112D1004B9955 /* Build configuration list for PBXProject "Edit Actions Table View" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF6516BF1E3112D1004B9955;
+			productRefGroup = EF6516C91E3112D1004B9955 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF6516C71E3112D1004B9955 /* Edit Actions Table View */,
+				EF6516DB1E3112D2004B9955 /* Edit Actions Table ViewTests */,
+				EF6516E61E3112D2004B9955 /* Edit Actions Table ViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF6516C61E3112D1004B9955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6516D61E3112D2004B9955 /* LaunchScreen.storyboard in Resources */,
+				EF6516D31E3112D2004B9955 /* Assets.xcassets in Resources */,
+				EF6516D11E3112D2004B9955 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6516DA1E3112D2004B9955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6516E51E3112D2004B9955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF6516C41E3112D1004B9955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6516CE1E3112D2004B9955 /* ViewController.swift in Sources */,
+				EF6516CC1E3112D2004B9955 /* AppDelegate.swift in Sources */,
+				EF6516FA1E31161F004B9955 /* Cell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6516D81E3112D2004B9955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6516E11E3112D2004B9955 /* Test_Table_ViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6516E31E3112D2004B9955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6516EC1E3112D2004B9955 /* Test_Table_ViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF6516DE1E3112D2004B9955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF6516C71E3112D1004B9955 /* Edit Actions Table View */;
+			targetProxy = EF6516DD1E3112D2004B9955 /* PBXContainerItemProxy */;
+		};
+		EF6516E91E3112D2004B9955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF6516C71E3112D1004B9955 /* Edit Actions Table View */;
+			targetProxy = EF6516E81E3112D2004B9955 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF6516CF1E3112D2004B9955 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF6516D01E3112D2004B9955 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF6516D41E3112D2004B9955 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF6516D51E3112D2004B9955 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF6516EE1E3112D2004B9955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF6516EF1E3112D2004B9955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF6516F11E3112D2004B9955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L2DV785Z9X;
+				INFOPLIST_FILE = "Test Table View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thyago.edit-actions-table-view";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF6516F21E3112D2004B9955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L2DV785Z9X;
+				INFOPLIST_FILE = "Test Table View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thyago.edit-actions-table-view";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EF6516F41E3112D2004B9955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = D25DV5T8JD;
+				INFOPLIST_FILE = "Test Table ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thyago.Test-Table-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Edit Actions Table View.app/Edit Actions Table View";
+			};
+			name = Debug;
+		};
+		EF6516F51E3112D2004B9955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = D25DV5T8JD;
+				INFOPLIST_FILE = "Test Table ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thyago.Test-Table-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Edit Actions Table View.app/Edit Actions Table View";
+			};
+			name = Release;
+		};
+		EF6516F71E3112D2004B9955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = D25DV5T8JD;
+				INFOPLIST_FILE = "Test Table ViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thyago.Test-Table-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Test Table View";
+			};
+			name = Debug;
+		};
+		EF6516F81E3112D2004B9955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = D25DV5T8JD;
+				INFOPLIST_FILE = "Test Table ViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thyago.Test-Table-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Test Table View";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF6516C31E3112D1004B9955 /* Build configuration list for PBXProject "Edit Actions Table View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6516EE1E3112D2004B9955 /* Debug */,
+				EF6516EF1E3112D2004B9955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF6516F01E3112D2004B9955 /* Build configuration list for PBXNativeTarget "Edit Actions Table View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6516F11E3112D2004B9955 /* Debug */,
+				EF6516F21E3112D2004B9955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF6516F31E3112D2004B9955 /* Build configuration list for PBXNativeTarget "Edit Actions Table ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6516F41E3112D2004B9955 /* Debug */,
+				EF6516F51E3112D2004B9955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF6516F61E3112D2004B9955 /* Build configuration list for PBXNativeTarget "Edit Actions Table ViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6516F71E3112D2004B9955 /* Debug */,
+				EF6516F81E3112D2004B9955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF6516C01E3112D1004B9955 /* Project object */;
+}
