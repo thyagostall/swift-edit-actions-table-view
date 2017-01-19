@@ -29,6 +29,26 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.set(text: items[indexPath.item])
         return cell
     }
-
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            items.remove(at: indexPath.item)
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+        let defaultRowAction = UITableViewRowAction(style: .normal, title: "Set Default", handler: {action, indexpath in
+            
+        });
+        
+        
+        let deleteRowAction = UITableViewRowAction(style: .destructive, title: "Delete", handler:{action, indexpath in
+            self.tableView(tableView, commit: .delete, forRowAt: indexPath)
+        });
+        
+        return [deleteRowAction, defaultRowAction];
+    }
+    
 }
 
